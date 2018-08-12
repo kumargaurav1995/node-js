@@ -1,0 +1,89 @@
+The creation of C is considered by many to have marked the beginning of the modern
+age of computer languages. It successfully synthesized the conflicting attributes that had
+so troubled earlier languages. The result was a powerful, efficient, structured language that
+was relatively easy to learn. It also included one other, nearly intangible aspect: it was a
+programmer’s language. Prior to the invention of C, computer languages were generally
+designed either as academic exercises or by bureaucratic committees. C is different. It was
+designed, implemented, and developed by real, working programmers, reflecting the way
+that they approached the job of programming. Its features were honed, tested, thought
+about, and rethought by the people who actually used the language. The result was a
+language that programmers liked to use. Indeed, C quickly attracted many followers
+who had a near-religious zeal for it. As such, it found wide and rapid acceptance in the
+programmer community. In short, C is a language designed by and for programmers.
+As you will see, Java inherited this legacy.
+C++: The Next Step
+During the late 1970s and early 1980s, C became the dominant computer programming
+language, and it is still widely used today. Since C is a successful and useful language, you
+might ask why a need for something else existed. The answer is complexity. Throughout the
+history of programming, the increasing complexity of programs has driven the need for better
+ways to manage that complexity. C++ is a response to that need. To better understand why
+managing program complexity is fundamental to the creation of C++, consider the following.
+Approaches to programming have changed dramatically since the invention of the
+computer. For example, when computers were first invented, programming was done by
+manually toggling in the binary machine instructions by use of the front panel. As long as
+programs were just a few hundred instructions long, this approach worked. As programs grew,
+assembly language was invented so that a programmer could deal with larger, increasingly
+complex programs by using symbolic representations of the machine instructions. As programs
+continued to grow, high-level languages were introduced that gave the programmer more tools
+with which to handle complexity.
+The first widespread language was, of course, FORTRAN. While FORTRAN was an
+impressive first step, it is hardly a language that encourages clear and easy-to-understand
+programs. The 1960s gave birth to structured programming. This is the method of programming
+championed by languages such as C. The use of structured languages enabled programmers
+to write, for the first time, moderately complex programs fairly easily. However, even with
+structured programming methods, once a project reaches a certain size, its complexity exceeds
+what a programmer can manage. By the early 1980s, many projects were pushing the structured
+approach past its limits. To solve this problem, a new way to program was invented, called
+object-oriented programming (OOP). Object-oriented programming is discussed in detail later in
+this book, but here is a brief definition: OOP is a programming methodology that helps organize
+complex programs through the use of inheritance, encapsulation, and polymorphism.
+In the final analysis, although C is one of the world’s great programming languages,
+there is a limit to its ability to handle complexity. Once the size of a program exceeds a
+certain point, it becomes so complex that it is difficult to grasp as a totality. While the
+precise size at which this occurs differs, depending upon both the nature of the program
+and the programmer, there is always a threshold at which a program becomes
+unmanageable. C++ added features that enabled this threshold to be broken, allowing
+programmers to comprehend and manage larger programs.
+C++ was invented by Bjarne Stroustrup in 1979, while he was working at Bell Laboratories
+in Murray Hill, New Jersey. Stroustrup initially called the new language “C with Classes.”
+However, in 1983, the name was changed to C++. C++ extends C by adding object-oriented
+features. Because C++ is built on the foundation of C, it includes all of C’s features, attributes,
+and benefits. This is a crucial reason for the success of C++ as a language. The invention of C++
+was not an attempt to create a completely new programming language. Instead, it was an
+enhancement to an already highly successful one.
+The Stage Is Set for Java
+By the end of the 1980s and the early 1990s, object-oriented programming using C++ took
+hold. Indeed, for a brief moment it seemed as if programmers had finally found the perfect
+language. Because C++ blended the high efficiency and stylistic elements of C with the
+object-oriented paradigm, it was a language that could be used to create a wide range of
+programs. However, just as in the past, forces were brewing that would, once again, drive
+computer language evolution forward. Within a few years, the World Wide Web and the
+Internet would reach critical mass. This event would precipitate another revolution in
+programming.
+The Creation of Java
+Java was conceived by James Gosling, Patrick Naughton, Chris Warth, Ed Frank, and Mike
+Sheridan at Sun Microsystems, Inc. in 1991. It took 18 months to develop the first working
+version. This language was initially called “Oak,” but was renamed “Java” in 1995. Between
+the initial implementation of Oak in the fall of 1992 and the public announcement of Java in
+the spring of 1995, many more people contributed to the design and evolution of the language.
+Bill Joy, Arthur van Hoff, Jonathan Payne, Frank Yellin, and Tim Lindholm were key
+contributors to the maturing of the original prototype.
+Somewhat surprisingly, the original impetus for Java was not the Internet! Instead, the
+primary motivation was the need for a platform-independent (that is, architecture-neutral)
+language that could be used to create software to be embedded in various consumer electronic
+devices, such as microwave ovens and remote controls. As you can probably guess, many
+different types of CPUs are used as controllers. The trouble with C and C++ (and most other
+languages) is that they are designed to be compiled for a specific target. Although it is possible
+to compile a C++ program for just about any type of CPU, to do so requires a full C++ compiler
+targeted for that CPU. The problem is that compilers are expensive and time-consuming to
+create. An easier—and more cost-efficient—solution was needed. In an attempt to find such a
+solution, Gosling and others began work on a portable, platform-independent language that
+could be used to produce code that would run on a variety of CPUs under differing
+environments. This effort ultimately led to the creation of Java.
+About the time that the details of Java were being worked out, a second, and ultimately
+more important, factor was emerging that would play a crucial role in the future of Java.
+This second force was, of course, the World Wide Web. Had the Web not taken shape at
+about the same time that Java was being implemented, Java might have remained a useful
+but obscure language for programming consumer electronics. However, with the emergence
+of the World Wide Web, Java was propelled to the forefront of computer language design,
+because the Web, too, demanded portable programs.

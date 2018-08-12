@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <style>
+        body {
+            background-color: blueviolet
+        }
+        </style>
+    </head>
+    <body>
+        <h1>
+            Student Details
+        </h1>
+        <h2>
+            You have requested the student name :<%= name %>
+            <p>
+                Id : <%= id %>
+            </p>
+        </h2>
+        <p>
+            details
+        </p>
+        <ul>
+              <% subjects.forEach(function(item){ %>
+              <li> <%=item %></li>
+              <% }); %>
+        </ul>
+    </body>
+</html>
